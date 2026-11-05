@@ -1,0 +1,873 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Cheramie Etabes Portfolio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Cheramie Etabes: remote professional across real estate, hospitality, sales, e-commerce, marketing, and admin.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap">
+<style>
+/* Layout concept: her own Canva brand, reorganized as a guide to six lines of work. Each one opens with her pill header. Single warm light look by choice. */
+:root {
+  color-scheme: light;
+  --cream: #faf7f2;
+  --sand: #f1eae0;
+  --paper: #ffffff;
+  --brown: #6d4c36;
+  --deep: #3b2415;
+  --mauve: #3b2415;
+  --ink: #2c211a;
+  --soft: #62544a;
+  --rule: #dcd1c3;
+  --display: "Newsreader", Georgia, "Times New Roman", serif;
+  --script: "Newsreader", Georgia, "Times New Roman", serif;
+  --label: "Karla", "Helvetica Neue", Arial, sans-serif;
+  --body: "Karla", "Helvetica Neue", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: var(--cream); color: var(--ink); font-family: var(--body); font-size: 1.0625rem; line-height: 1.6; }
+h1, h2, h3, h4, p, ul, ol, dl, dd, figure { margin: 0; }
+h1, h2, h3 { font-family: var(--display); color: var(--deep); font-weight: 400; line-height: 1.08; text-wrap: balance; }
+h2 { font-size: clamp(2rem, 4.4vw, 3rem); }
+h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
+a { color: inherit; text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--deep); outline-offset: 3px; }
+img { display: block; max-width: 100%; }
+.label { font-family: var(--label); font-size: .78rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--brown); }
+.gut { padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.in { max-width: 1120px; margin-inline: auto; }
+
+.banner { background: var(--deep); color: var(--paper); text-align: center; padding-block: 12px; font-family: var(--display); font-size: clamp(1.1rem, 2.4vw, 1.5rem); }
+
+/* Hero */
+.hero { padding-block: clamp(32px, 6vw, 64px) 0; }
+.hero .in { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 24px 56px; align-items: end; }
+.hero .intro { display: grid; gap: 14px; padding-bottom: clamp(24px, 5vw, 56px); }
+h1 { font-size: clamp(3rem, 8.2vw, 6rem); color: var(--mauve); text-transform: uppercase; }
+.tag { font-family: var(--display); font-size: clamp(1.3rem, 2.6vw, 1.7rem); line-height: 1.25; color: var(--deep); }
+.bio { max-width: 58ch; }
+.face { background: var(--sand); border-radius: 50% 50% 0 0 / 34% 34% 0 0; display: flex; justify-content: center; padding-top: 28px; max-width: 26rem; width: 100%; justify-self: center; }
+.face img { width: 86%; height: auto; }
+
+/* Results */
+.results { background: var(--brown); color: var(--paper); padding-block: 28px; }
+.results dl { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px; }
+.results div { display: grid; gap: 2px; text-align: center; align-content: start; min-width: 0; }
+.results dd { font-family: var(--display); font-size: clamp(2.5rem, 6vw, 4rem); line-height: 1; font-variant-numeric: tabular-nums; }
+.results dt { font-family: var(--label); font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; line-height: 1.4; order: 2; }
+
+/* Industry guide */
+.guide { padding-block: clamp(48px, 7vw, 80px); }
+.guide .top { display: grid; gap: 8px; margin-bottom: 24px; }
+.guide ol { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.guide a { display: grid; gap: 6px; height: 100%; padding: 18px 20px; background: var(--paper); border: 1px solid var(--rule); text-decoration: none; }
+.guide a:hover { border-color: var(--deep); }
+.guide b { font-family: var(--display); font-weight: 400; font-size: 1.3rem; color: var(--deep); line-height: 1.15; }
+.guide span { font-size: .95rem; color: var(--soft); line-height: 1.4; }
+
+/* Industry sections */
+.ind { padding-block: clamp(48px, 7vw, 80px); }
+.ind:nth-of-type(even) { background: var(--sand); }
+.ind .in { display: grid; gap: 28px; }
+.pill { display: inline-flex; align-items: center; gap: 14px; justify-self: start; max-width: 100%; background: var(--brown); color: var(--paper); border-radius: 999px; padding: 8px 28px 8px 8px; }
+.pill i { flex: none; width: 2.75rem; height: 2.75rem; border-radius: 50%; background: var(--paper); box-shadow: 0 0 0 3px var(--rule); color: var(--brown); font: 400 1.25rem/2.75rem var(--display); text-align: center; }
+.pill h2 { color: inherit; font-size: clamp(1.3rem, 3vw, 1.85rem); line-height: 1.15; }
+.lead { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 24px 56px; align-items: start; }
+.lead > p { font-size: 1.1875rem; line-height: 1.5; max-width: 54ch; }
+.roles { display: grid; gap: 14px; }
+.roles div { display: grid; gap: 1px; padding-top: 12px; border-top: 1px solid var(--rule); }
+.roles b { font-weight: 700; color: var(--deep); line-height: 1.35; }
+.roles span { font-size: .925rem; color: var(--soft); }
+.roles p { font-size: .975rem; line-height: 1.5; margin-top: 4px; }
+.pick { display: flex; flex-wrap: wrap; gap: 8px 28px; }
+.pick b { font-family: var(--display); font-weight: 400; font-size: 2rem; color: var(--mauve); margin-right: 8px; }
+
+.gallery { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.gallery.two { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.gallery.three { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.shot { display: grid; gap: 6px; min-width: 0; align-content: start; }
+.shot button { padding: 0; border: 1px solid var(--rule); background: var(--paper); cursor: zoom-in; display: block; width: 100%; }
+.shot img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; object-position: top; }
+.shot figcaption { font-size: .875rem; line-height: 1.35; color: var(--soft); }
+.shot figcaption b { color: var(--ink); font-weight: 700; }
+
+.sub { display: grid; gap: 16px; }
+.sub > h3 { padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+.steps { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 24px; counter-reset: s; }
+.steps li { counter-increment: s; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+.steps li::before { content: "Step " counter(s); font-family: var(--script); font-size: 1.9rem; line-height: 1; color: var(--mauve); }
+.steps h4 { font-size: 1.0625rem; color: var(--deep); line-height: 1.3; }
+.steps p { font-size: .975rem; line-height: 1.5; }
+.steps .shot { margin-top: auto; padding-top: 6px; }
+.split { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px 48px; align-items: start; }
+.split ul { padding-left: 1.1em; display: grid; gap: 8px; }
+.split li::marker { color: var(--brown); }
+.ask { font-size: .975rem; color: var(--soft); font-style: italic; }
+
+/* Site nav */
+.topnav { background: var(--paper); border-bottom: 1px solid var(--rule); padding-block: 12px 9px; }
+.topnav .in { display: flex; flex-wrap: wrap; gap: 6px 24px; justify-content: flex-end; }
+.topnav a { text-decoration: none; }
+.topnav a:hover { color: var(--deep); text-decoration: underline; }
+
+/* Tools page */
+.toolpage { padding-block: clamp(40px, 6vw, 72px); }
+.toolpage > .in { display: grid; gap: clamp(36px, 5vw, 56px); }
+.toolhead { display: grid; gap: 12px; max-width: 44rem; }
+.toolhead h1 { font-size: clamp(2.75rem, 7vw, 4.75rem); text-transform: none; }
+.toolhead p:last-child { font-size: 1.1875rem; line-height: 1.5; }
+.toolgroup { display: grid; gap: 16px; }
+.toolgroup h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); padding-bottom: 8px; border-bottom: 1px solid var(--rule); }
+.toollist { list-style: none; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.toollist li { background: var(--paper); border: 1px solid var(--rule); padding: 14px 16px; display: grid; gap: 4px; align-content: start; min-width: 0; }
+.toollist b { font-family: var(--display); font-weight: 400; font-size: 1.25rem; line-height: 1.2; color: var(--deep); }
+.toollist span { font-size: .925rem; line-height: 1.4; color: var(--soft); }
+.more { font-family: var(--label); font-size: .82rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--paper); background: var(--brown); border-radius: 999px; padding: 12px 22px 9px; text-decoration: none; justify-self: start; }
+.more:hover { background: var(--deep); }
+
+/* Timeline */
+.history { padding-block: clamp(48px, 7vw, 80px); background: var(--paper); }
+.history .in { display: grid; gap: 24px; }
+.table { overflow-x: auto; }
+table { width: 100%; min-width: 640px; border-collapse: collapse; font-size: .975rem; line-height: 1.4; }
+th { text-align: left; font-family: var(--label); font-size: .72rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--brown); padding: 0 16px 8px 0; border-bottom: 2px solid var(--deep); }
+td { padding: 11px 16px 11px 0; border-bottom: 1px solid var(--rule); vertical-align: top; }
+td:first-child { white-space: nowrap; font-variant-numeric: tabular-nums; color: var(--soft); }
+td b { font-weight: 700; color: var(--deep); }
+
+/* Contact */
+.contact { background: var(--deep); color: var(--paper); padding-block: clamp(48px, 7vw, 80px); }
+.contact .in { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 24px 56px; align-items: center; }
+.contact .help { font-family: var(--script); font-size: clamp(3.5rem, 9vw, 6rem); line-height: 1; }
+.contact h2 { color: inherit; font-size: clamp(1.4rem, 3vw, 2rem); margin-top: 8px; }
+.contact p.note { margin-top: 10px; max-width: 46ch; }
+.contact dl { display: grid; gap: 14px; }
+.contact dt { font-family: var(--label); font-size: .75rem; letter-spacing: .12em; text-transform: uppercase; opacity: .85; }
+.contact dd { display: flex; flex-wrap: wrap; gap: 4px 12px; align-items: baseline; font-size: 1.1rem; overflow-wrap: anywhere; }
+.copy { font: 600 .72rem var(--label); letter-spacing: .1em; text-transform: uppercase; color: var(--paper); background: none; border: 1px solid var(--paper); padding: 5px 9px 3px; cursor: pointer; }
+
+.book { display: inline-block; justify-self: start; font-family: var(--label); font-size: .85rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; text-decoration: none; color: var(--paper); background: var(--brown); border-radius: 999px; padding: 14px 26px 11px; }
+.book:hover { background: var(--deep); }
+.contact .book { color: var(--deep); background: var(--paper); margin-top: 18px; }
+.contact .book:hover { background: var(--sand); }
+.contact dd a { font-size: .95rem; }
+.shot.full img { object-fit: contain; object-position: center; }
+.gallery.three .shot.full img { aspect-ratio: auto; }
+/* Cutout samples sit on a soft arch, echoing the portrait */
+.shot.cut button { position: relative; background: none; border: 0; padding-top: 10px; }
+.shot.cut button::before { content: ""; position: absolute; inset: 16% 4% 0; background: var(--sand); border-radius: 999px 999px 12px 12px; }
+.shot.cut img { position: relative; filter: drop-shadow(0 12px 16px rgba(87, 53, 16, .28)); }
+.gallery .shot.cut figcaption { text-align: center; }
+
+/* Tool ribbon */
+.ribbon { overflow: hidden; background: var(--paper); border-bottom: 1px solid var(--rule); padding-block: 14px; }
+.ribbon .track { display: flex; width: max-content; }
+.ribbon ul { list-style: none; margin: 0; padding: 0; display: flex; }
+.ribbon li { font-family: var(--display); font-style: italic; font-size: 1.25rem; color: var(--brown); white-space: nowrap; padding-right: 40px; }
+
+/* Case studies */
+.cases { background: var(--sand); padding-block: clamp(48px, 7vw, 80px); }
+.cases > .in { display: grid; gap: clamp(36px, 5vw, 56px); }
+.cases .top { display: grid; gap: 8px; max-width: 44rem; }
+.case { background: var(--paper); padding: clamp(20px, 3.5vw, 40px); display: grid; gap: 24px; }
+.case header { display: grid; gap: 8px; }
+.case .tools-used { font-size: .925rem; color: var(--soft); }
+.pa { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px 36px; }
+.pa > div { display: grid; gap: 6px; align-content: start; min-width: 0; }
+.pa h4 { font-family: var(--script); font-weight: 400; font-size: 2rem; line-height: 1; color: var(--mauve); }
+.pa p { font-size: 1rem; line-height: 1.55; }
+.nums { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; padding-top: 24px; border-top: 1px solid var(--rule); }
+.nums div { display: grid; justify-items: center; gap: 8px; text-align: center; min-width: 0; }
+.nums dd { order: -1; width: clamp(5.25rem, 13vw, 7.5rem); aspect-ratio: 1; border-radius: 50%; background: var(--brown); color: var(--paper); display: grid; place-items: center; font-family: var(--display); font-size: clamp(1.3rem, 3vw, 2rem); line-height: 1; font-variant-numeric: tabular-nums; }
+.nums dt { font-size: .925rem; line-height: 1.35; color: var(--soft); max-width: 22ch; }
+.case > a { justify-self: start; font-size: .95rem; color: var(--deep); }
+@media (max-width: 860px) { .pa { grid-template-columns: minmax(0, 1fr); } }
+
+/* Client work */
+.gallery.uniform { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 20px 16px; }
+.gallery.uniform .shot img { aspect-ratio: 3 / 4; object-fit: cover; object-position: center; }
+.gallery.uniform .shot.fit img { object-fit: contain; }
+.vids { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; align-items: start; }
+.vids figure { display: grid; gap: 6px; min-width: 0; }
+.vids video { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: contain; background: var(--deep); }
+.vids figcaption { font-size: .875rem; line-height: 1.35; color: var(--soft); }
+.vids figcaption b { color: var(--ink); font-weight: 700; }
+@media (max-width: 860px) { .gallery.uniform { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 520px) { .vids { grid-template-columns: minmax(0, 1fr); } }
+
+/* Effects: everything is fully visible without them */
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes rise { from { opacity: .1; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+  @keyframes slide { to { transform: translateX(-50%); } }
+  .hero .intro > * { animation: rise .7s ease-out both; }
+  .hero .intro > :nth-child(2) { animation-delay: .1s; }
+  .hero .intro > :nth-child(3) { animation-delay: .2s; }
+  .hero .intro > :nth-child(4) { animation-delay: .3s; }
+  .hero .intro > :nth-child(5) { animation-delay: .4s; }
+  .face { animation: rise .9s .15s ease-out both; }
+  .inview { animation: rise .7s ease-out both; }
+  .ribbon .track { animation: slide 70s linear infinite; }
+  .ribbon:hover .track { animation-play-state: paused; }
+  .shot button, .guide a, .toollist li, .book, .more { transition: transform .25s ease, box-shadow .25s ease, background-color .25s ease; }
+  .shot:not(.cut) button:hover, .guide a:hover, .toollist li:hover { transform: translateY(-4px); box-shadow: 0 12px 22px rgba(87, 53, 16, .16); }
+  .book:hover, .more:hover { transform: translateY(-2px); }
+  .shot.cut img { transition: transform .35s ease; }
+  .shot.cut button:hover img { transform: scale(1.02); }
+  .topnav a { background: linear-gradient(currentColor, currentColor) left bottom / 0 1px no-repeat; transition: background-size .25s ease; }
+  .topnav a:hover { text-decoration: none; background-size: 100% 1px; }
+}
+.picks { display: grid; gap: 6px; }
+
+dialog { border: 0; padding: 0; background: var(--paper); max-width: min(94vw, 1100px); max-height: 92vh; }
+dialog::backdrop { background: rgba(51, 38, 29, .78); }
+dialog img { max-height: 80vh; margin-inline: auto; }
+dialog form { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 10px 14px; }
+dialog button { font: 600 .75rem var(--label); letter-spacing: .1em; text-transform: uppercase; background: var(--brown); color: var(--paper); border: 0; padding: 8px 12px 6px; cursor: pointer; flex: none; }
+
+@media (max-width: 860px) {
+  .hero .in, .lead, .split, .contact .in { grid-template-columns: minmax(0, 1fr); }
+  .hero .intro { padding-bottom: 0; }
+  .guide ol, .steps, .gallery.three, .toollist { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .gallery, .results dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 520px) {
+  .guide ol, .steps, .toollist { grid-template-columns: minmax(0, 1fr); }
+  .gallery.two { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+/* Refined presentation */
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--paper); }
+[id] { scroll-margin-top: 84px; }
+.topnav { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--paper); padding-block: 12px; }
+.topnav .in { align-items: center; justify-content: space-between; gap: 8px 24px; }
+.topnav a { color: var(--ink); }
+.brand { font-family: var(--display); font-size: 1.3rem; line-height: 1.2; }
+.links { display: flex; flex-wrap: wrap; gap: 4px 22px; font-size: .95rem; }
+.book { border-radius: 2px; letter-spacing: .06em; }
+.topnav a.book { color: var(--paper); background: var(--deep); }
+.book.small { padding: 9px 14px; font-size: .78rem; }
+.more { border-radius: 2px; letter-spacing: .06em; padding: 12px 20px; background: var(--deep); }
+.label { letter-spacing: .1em; font-size: .75rem; font-weight: 700; }
+h1 { text-transform: none; color: var(--deep); font-weight: 400; letter-spacing: -.015em; font-size: clamp(3rem, 7vw, 5.25rem); }
+h2, h3 { letter-spacing: -.01em; }
+.tag { font-size: clamp(1.25rem, 2.3vw, 1.55rem); color: var(--brown); }
+.face { border-radius: 2px; background: var(--sand); }
+.results { background: var(--deep); }
+.results dl { text-align: left; }
+.results div { text-align: left; }
+.results dt { font-family: var(--body); font-size: .9rem; letter-spacing: 0; text-transform: none; }
+.ribbon { padding-block: 12px; }
+.ribbon li { font-family: var(--body); font-style: normal; font-size: .95rem; color: var(--soft); }
+.guide a { background: var(--paper); }
+.pill { display: flex; justify-self: stretch; align-items: baseline; gap: 14px; background: none; color: var(--deep); border-radius: 0; padding: 0 0 14px; border-bottom: 2px solid var(--deep); }
+.pill i { width: auto; height: auto; background: none; box-shadow: none; border-radius: 0; font: 700 .8rem/1 var(--label); letter-spacing: .1em; color: var(--brown); }
+.pill h2 { font-size: clamp(2rem, 4.4vw, 3rem); line-height: 1.05; }
+.sub > h3 { border-bottom: 1px solid var(--rule); }
+.steps li::before { font-family: var(--label); font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--brown); }
+.case { border: 1px solid var(--rule); }
+.pa h4 { font-family: var(--label); font-size: .75rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--brown); }
+.nums div { justify-items: start; text-align: left; gap: 2px; }
+.nums dd { width: auto; aspect-ratio: auto; display: block; background: none; color: var(--deep); border-radius: 0; font-size: clamp(2rem, 4.2vw, 3rem); }
+.nums dt { max-width: 26ch; }
+.pick b { color: var(--deep); }
+.shot.cut button { padding: 16px; background: var(--sand); }
+.shot.cut button::before { display: none; }
+.shot.cut img { filter: drop-shadow(0 6px 10px rgba(59, 36, 21, .18)); }
+.gallery .shot.cut figcaption { text-align: left; }
+.contact .help { font-size: clamp(2.75rem, 6vw, 4.5rem); }
+.contact h2 { margin-top: 10px; }
+.contact .book { border-radius: 2px; }
+.copy { border-radius: 2px; }
+.gallery.two.auto .shot img { object-fit: contain; object-position: center; }
+@media (max-width: 760px) {
+  .topnav { position: static; }
+  .links { order: 3; width: 100%; font-size: .9rem; }
+}
+</style>
+
+<nav class="topnav gut" aria-label="Site">
+  <div class="in">
+    <a class="brand" href="#about">Cheramie Etabes</a>
+    <div class="links">
+      <a href="#case-studies">Case studies</a>
+      <a href="#real-estate">Experience</a>
+      <a href="#tools">Tools</a>
+      <a href="#history">Work history</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a class="book small" href="https://calendar.app.google/Qt5SRnUYeSaTwJqM6" target="_blank" rel="noopener">Book a call</a>
+  </div>
+</nav>
+
+<div id="home">
+<header class="hero gut" id="about">
+  <div class="in">
+    <div class="intro">
+      <h1>Cheramie Etabes</h1>
+      <p class="tag">Real estate dispositions, transaction coordination, sales, and CRM automation.</p>
+      <p class="bio">I bring 6+ years of remote experience across U.S. real estate, hospitality, sales, e-commerce, and marketing. I help business owners move deals forward, fill their pipelines, and keep daily operations running.</p>
+      <p class="label">Surigao City, Philippines · Full overlap with U.S. business hours</p>
+      <a class="book" href="https://calendar.app.google/Qt5SRnUYeSaTwJqM6" target="_blank" rel="noopener">Book a discovery call</a>
+    </div>
+    <div class="face"><img src="img/headshot.png" alt="Portrait of Cheramie Etabes in a gray blazer, holding a laptop"></div>
+  </div>
+</header>
+
+<section class="results gut" aria-label="Results">
+  <div class="in">
+    <dl>
+      <div><dd>150+</dd><dt>Deals dispositioned at Lot of Land, Inc.</dt></div>
+      <div><dd>80+</dd><dt>Deals handled at RE Solutions Group</dt></div>
+      <div><dd>200+</dd><dt>Calls per day, hitting targets</dt></div>
+      <div><dd>98%</dd><dt>Satisfaction rate from clients</dt></div>
+    </dl>
+  </div>
+</section>
+
+<div class="ribbon" aria-hidden="true">
+  <div class="track">
+    <ul><li>GoHighLevel</li><li>Follow Up Boss</li><li>Podio</li><li>Smarter Contact</li><li>Enzo Dialer</li><li>Smrtphone</li><li>Land Insights</li><li>LandVision</li><li>MLS</li><li>DocuSign</li><li>PandaDoc</li><li>Mews</li><li>Canva</li><li>Photoshop</li><li>CapCut</li><li>Meta Business Suite</li></ul>
+    <ul><li>GoHighLevel</li><li>Follow Up Boss</li><li>Podio</li><li>Smarter Contact</li><li>Enzo Dialer</li><li>Smrtphone</li><li>Land Insights</li><li>LandVision</li><li>MLS</li><li>DocuSign</li><li>PandaDoc</li><li>Mews</li><li>Canva</li><li>Photoshop</li><li>CapCut</li><li>Meta Business Suite</li></ul>
+  </div>
+</div>
+
+<nav class="guide gut" aria-label="Industries">
+  <div class="in">
+    <div class="top">
+      <p class="label">Where I've worked</p>
+      <h2>Six areas of experience</h2>
+    </div>
+    <ol>
+      <li><a href="#real-estate"><b>Real Estate and Land</b><span>Dispositions, transaction coordination, listings, buyer outreach</span></a></li>
+      <li><a href="#hospitality"><b>Hospitality and Stays</b><span>Reservations, availability, pricing, serviced accommodation</span></a></li>
+      <li><a href="#sales"><b>Sales and Tech Support</b><span>Cold calling, appointment and DM setting, coaching, gyms, and fitness</span></a></li>
+      <li><a href="#ecommerce"><b>E-commerce and Sourcing</b><span>Seller sourcing, price negotiation, purchasing</span></a></li>
+      <li><a href="#marketing"><b>Social Media and Design</b><span>Content, LinkedIn outreach, paid ads, branding</span></a></li>
+      <li><a href="#operations"><b>Admin and Automation</b><span>CRM pipelines, follow-up sequences, inbox and calendar</span></a></li>
+    </ol>
+  </div>
+</nav>
+
+<section id="case-studies" class="cases gut">
+  <div class="in">
+    <div class="top">
+      <p class="label">Case studies</p>
+      <h2>The work, from problem to result</h2>
+      <p>Five examples of how I approach a job, with the numbers behind each one. Sensitive client and deal details are left out.</p>
+    </div>
+
+    <article class="case">
+      <header>
+        <p class="label">U.S. land dispositions</p>
+        <h3>Finding end buyers for vacant land across seven states</h3>
+        <p class="tools-used">Podio · Follow Up Boss · GoHighLevel · Land Insights · Direct Skip · Smarter Contact · MLS</p>
+      </header>
+      <div class="pa">
+        <div><h4>Problem</h4><p>Each vacant lot or acreage under contract needed an end buyer before its closing date. Most deals were double closes, so that buyer needed a separate contract.</p></div>
+        <div><h4>Action</h4><p>I reviewed the CRM notes and comps, built a property report, and called the buyers list. Then I skip traced neighbors, area agents, and county landowners, ran outreach, listed the property, and kept following up in the CRM.</p></div>
+        <div><h4>Result</h4><p>I dispositioned 150+ deals at Lot of Land, Inc., with the most closings in NC, FL, and VA. I also handled 80+ deals at RE Solutions Group.</p></div>
+      </div>
+      <dl class="nums">
+        <div><dd>150+</dd><dt>deals dispositioned at Lot of Land, Inc.</dt></div>
+        <div><dd>80+</dd><dt>deals handled at RE Solutions Group</dt></div>
+        <div><dd>7</dd><dt>states: NC, FL, VA, GA, SC, WV, and MS</dt></div>
+      </dl>
+      <a href="#real-estate">See my listings and deal process</a>
+    </article>
+
+    <article class="case">
+      <header>
+        <p class="label">Business process outsourcing</p>
+        <h3>Turning an inactive Facebook page into a steady source of reach</h3>
+        <p class="tools-used">Meta Business Suite · Canva</p>
+      </header>
+      <div class="pa">
+        <div><h4>Problem</h4><p>The client's page showed no reach or engagement, had no recent content to report, and didn't have its professional dashboard turned on.</p></div>
+        <div><h4>Action</h4><p>I activated the dashboard, updated the bio and profile picture, and kept the call-to-actions the client wanted. Then I published job posts and content posts.</p></div>
+        <div><h4>Result</h4><p>Reach rose 7,264% in the first 28-day report. A later report showed 9.9K reach, up 261%, and followers grew from 134 to 2.0K.</p></div>
+      </div>
+      <dl class="nums">
+        <div><dd>9.9K</dd><dt>reach in 28 days, up 261%</dt></div>
+        <div><dd>2.0K</dd><dt>followers, up from 134</dt></div>
+        <div><dd>383</dd><dt>content interactions in 28 days, up 295%</dt></div>
+      </dl>
+      <a href="#marketing">See the before and after</a>
+    </article>
+
+    <article class="case">
+      <header>
+        <p class="label">Transaction coordination</p>
+        <h3>Opening escrow on a double close in North Carolina</h3>
+        <p class="tools-used">Google Workspace · DocuSign · PandaDoc</p>
+      </header>
+      <div class="pa">
+        <div><h4>Problem</h4><p>A double close puts two contracts on one property, each with its own price, deposit, and dates. Title needs all of it clearly laid out to open the file.</p></div>
+        <div><h4>Action</h4><p>I sent title one opening email with the documents attached and each contract's dates, prices, deposits, and parties set out separately. I also requested wiring instructions, escrow instructions, and the file number.</p></div>
+        <div><h4>Result</h4><p>Title had both contracts in one place from the first email. The resale was signed 29 days after the purchase contract, with settlement set 35 days ahead of the closing deadline.</p></div>
+      </div>
+      <dl class="nums">
+        <div><dd>2</dd><dt>contracts coordinated on one file</dt></div>
+        <div><dd>29</dd><dt>days from purchase contract to resale contract</dt></div>
+        <div><dd>35</dd><dt>days between scheduled settlement and the closing deadline</dt></div>
+      </dl>
+      <a href="#tc">See the opening escrow email</a>
+    </article>
+
+    <article class="case">
+      <header>
+        <p class="label">Outbound sales</p>
+        <h3>Generating phone leads across three campaigns</h3>
+        <p class="tools-used">Cold calling · Lead generation · Technical support</p>
+      </header>
+      <div class="pa">
+        <div><h4>Problem</h4><p>Solicitation, jewelry, and solar campaigns each depended on a steady volume of outbound calls to produce new leads.</p></div>
+        <div><h4>Action</h4><p>I worked the call lists every day, started conversations with prospects, and generated leads for each campaign. I also handled sales and technical support.</p></div>
+        <div><h4>Result</h4><p>I kept up 200+ calls per day while achieving my targets.</p></div>
+      </div>
+      <dl class="nums">
+        <div><dd>200+</dd><dt>calls per day</dt></div>
+        <div><dd>3</dd><dt>campaign types: solicitation, jewelry, and solar</dt></div>
+        <div><dd>12</dd><dt>months in the role, Nov 2020 to Nov 2021</dt></div>
+      </dl>
+      <a href="#cold-calling">See my cold calling experience</a>
+    </article>
+
+    <article class="case">
+      <header>
+        <p class="label">Coaching, gyms, and fitness</p>
+        <h3>Booking consultations through calls and DMs</h3>
+        <p class="tools-used">Outbound calling · DM setting · CRM records</p>
+      </header>
+      <div class="pa">
+        <div><h4>Problem</h4><p>Coaching businesses, gyms, and fitness programs needed new leads contacted, qualified, and scheduled for a consultation.</p></div>
+        <div><h4>Action</h4><p>I reached out by phone and direct message, qualified each lead, scheduled consultations, and kept the CRM records up to date.</p></div>
+        <div><h4>Result</h4><p>Qualified leads moved from a first conversation to a scheduled consultation, with their records kept current for the team.</p></div>
+      </div>
+      <dl class="nums">
+        <div><dd>3</dd><dt>client types: coaching, gyms, and fitness programs</dt></div>
+        <div><dd>2</dd><dt>outreach channels: calls and DMs</dt></div>
+        <div><dd>12</dd><dt>months in the role, Oct 2022 to Oct 2023</dt></div>
+      </dl>
+      <a href="#appointment-setting">See my appointment setting experience</a>
+    </article>
+  </div>
+</section>
+
+<main>
+<section id="real-estate" class="ind gut">
+  <div class="in">
+    <div class="pill"><i>1</i><h2>Real Estate and Land</h2></div>
+    <div class="lead">
+      <div style="display:grid;gap:16px">
+        <p style="font-size:1.1875rem;line-height:1.5;max-width:54ch">I take vacant lots and acreage from listing to close, mostly as double closes. I've worked deals across the U.S., with the most closings in NC, FL, and VA, plus GA, SC, WV, and MS.</p>
+        <p class="pick"><span><b>85%</b>of deals closed through lead gen and MLS</span></p>
+      </div>
+      <div class="roles">
+        <div><b>Real Estate VA and Disposition Manager</b><span>Lot of Land, Inc. · Dec 2024 to Sep 2026</span><p>Built and qualified buyer lists, presented and negotiated deals, moved contracts through closing with title, and built agent relationships that produced buyers.</p></div>
+        <div><b>Dispositions and Transactions Coordinator</b><span>MyDispoDesk · Part time · Jul 2025 to Jun 2026</span><p>Fielded buyer inquiries, negotiated offers, and kept files, deadlines, and title communication on schedule.</p></div>
+        <div><b>Dispositions Manager</b><span>RE Solutions Group · Feb 2025 to Apr 2026</span><p>Handled 80+ deals in Florida and North Carolina, marketing off-market properties, researching them, and creating listings.</p></div>
+        <div><b>Real Estate VA, CRM Automation and Outbound</b><span>PhylliHome Stays · Part time · Jan 2024 to Mar 2025</span><p>Ran SMS and dialer campaigns for New Jersey and Pennsylvania, and built Follow Up Boss automations.</p></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Listings</h3>
+      <div class="gallery">
+        <figure class="shot"><button type="button"><img src="img/land-starke.jpg" alt="Zillow listing for 50.64 acres in Starke, Florida"></button><figcaption><b>50.64 acres</b> · $455,000 · Starke, FL</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/land-liveoak.jpg" alt="Zillow listing for 30 acres in Live Oak, Florida"></button><figcaption><b>30 acres</b> · $168,324 · Live Oak, FL</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/land-manson.jpg" alt="Zillow listing for 25.88 acres in Manson, North Carolina"></button><figcaption><b>25.88 acres</b> · $143,000 · Manson, NC</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/land-portal.jpg" alt="Zillow listing for 20.95 acres in Portal, Georgia"></button><figcaption><b>20.95 acres</b> · $178,000 · Portal, GA</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/land-madison.jpg" alt="Zillow listing for 17.9 acres in Madison, Florida"></button><figcaption><b>17.9 acres</b> · $145,000 · Madison, FL</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/land-tabor.jpg" alt="Zillow listing for 10.2 acres in Tabor City, North Carolina"></button><figcaption><b>10.2 acres</b> · $137,200 · Tabor City, NC</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/land-trenton.jpg" alt="Zillow listing for 9.01 acres in Trenton, Florida"></button><figcaption><b>9.01 acres</b> · $127,500 · Trenton, FL</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/land-wilder.jpg" alt="Zillow listing for 8.28 acres in Wilder, Tennessee"></button><figcaption><b>8.28 acres</b> · $10,000 · Wilder, TN</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>How I handle a deal</h3>
+      <ol class="steps">
+        <li><h4>Read the file</h4><p>I review the CRM notes, the reported comps, and the market value in Podio or Follow Up Boss.</p><figure class="shot"><button type="button"><img src="img/crm-podio.jpg" alt="CRM contact list with personal details blurred"></button></figure></li>
+        <li><h4>Research and build the package</h4><p>I research the property and create a due diligence report with the property details.</p><figure class="shot"><button type="button"><img src="img/dd-report.jpg" alt="Due diligence report cover for Titan Roberts Road, Erwin, North Carolina"></button></figure></li>
+        <li><h4>Call the buyers list</h4><p>I start with known buyers, presenting the deal by phone and text.</p><figure class="shot"><button type="button"><img src="img/buyers.jpg" alt="Buyers list with personal details blurred"></button></figure></li>
+        <li><h4>Skip trace new leads</h4><p>I pull neighbors, agents in the area, and landowners in the county.</p><figure class="shot"><button type="button"><img src="img/skiptrace.jpg" alt="Saved county and neighbor exports beside a U.S. map"></button></figure></li>
+        <li><h4>Reach out to everyone</h4><p>I run outreach to all the leads gathered, by neighbor and agent campaign.</p><figure class="shot"><button type="button"><img src="img/campaigns.jpg" alt="SMS campaign list, blurred"></button></figure></li>
+        <li><h4>Follow up until there's an offer</h4><p>Interested parties go in the CRM. I list on the MLS and Facebook Marketplace, keep marketing offline, and stay on the first leads.</p><figure class="shot"><button type="button"><img src="img/followup.jpg" alt="Follow-up conversation thread, blurred"></button></figure></li>
+      </ol>
+    </div>
+
+    <div class="sub" id="tc">
+      <h3>Transaction coordination</h3>
+      <div class="split">
+        <ul>
+          <li>Open escrow and send title what they need to start.</li>
+          <li>Track contract deadlines and follow up with title and escrow.</li>
+          <li>Keep buyers, sellers, title, and my team updated.</li>
+          <li>Prepare documents and route them for e-signature.</li>
+        </ul>
+        <figure class="shot"><button type="button"><img src="img/tc.jpg" alt="Opening escrow email for a double close in Southport, North Carolina, with names, prices, and parcel number blurred"></button><figcaption>Opening escrow email for a double close, with names, prices, and parcel number blurred</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hospitality" class="ind gut">
+  <div class="in">
+    <div class="pill"><i>2</i><h2>Hospitality and Stays</h2></div>
+    <div class="lead">
+      <div style="display:grid;gap:16px">
+        <p style="font-size:1.1875rem;line-height:1.5;max-width:54ch">I've managed reservations and pricing for villas, and promoted serviced accommodation across the UK.</p>
+      </div>
+      <div class="roles">
+        <div><b>Virtual Booking Administrator</b><span>Mirror Villas · Part time · Jul 2023 to Dec 2023</span><p>Managed reservations, availability, and dynamic pricing in Mews.</p></div>
+        <div><b>Social Media Manager, SMM and LinkedIn Outreach</b><span>Blissful Living by Mel · Part time · Dec 2024 to Feb 2025</span><p>Handled social media content and ran LinkedIn connection, message, and follow-up campaigns that built the client and referral pipeline.</p></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Mirror Villas: booking administration</h3>
+      <p style="max-width:62ch">Mirror Villas has four luxury forest villas 90 minutes from D.C., with hot tubs and saunas. I handled their reservations, availability, and dynamic pricing in Mews.</p>
+      <div class="gallery two" style="grid-template-columns:minmax(0,1fr)">
+        <figure class="shot"><button type="button"><img src="img/mirror-grid.jpg" alt="Mirror Villas Instagram grid showing glass villas in the forest, hot tubs, and saunas" style="aspect-ratio:auto"></button><figcaption>The Mirror Villas properties, from their Instagram</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Blissful Living: social media</h3>
+      <p style="max-width:62ch">Blissful Living provides fully furnished UK homes for contractors, businesses, and relocations. Here is the Facebook and Instagram content I handled, from promotions and guest reviews to Q&amp;A posts.</p>
+      <div class="gallery uniform">
+        <figure class="shot fit"><button type="button"><img src="img/blissful-cover.jpg" alt="Blissful Living Facebook cover reading Where Comfort Meets Affordability"></button><figcaption>Facebook cover</figcaption></figure>
+        <figure class="shot fit"><button type="button"><img src="img/blissful-rooms.jpg" alt="Collage of a Blissful Living property in blue decor"></button><figcaption>Property post</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/ig-stay.jpg" alt="Stay well, work well promotional post"></button><figcaption>Promotion</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/ig-reliable.jpg" alt="Reliable serviced accommodation post"></button><figcaption>Service post</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/ig-rooms.jpg" alt="Collage of furnished rooms with contact details"></button><figcaption>Property collage</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/ig-review.jpg" alt="Five-star guest review post"></button><figcaption>Guest review</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/ig-qa2.jpg" alt="Q&amp;A Sessions post asking whether serviced accommodation is cheaper than multiple hotel rooms"></button><figcaption>Q&amp;A session</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/ig-wakefield.jpg" alt="Wakefield property post with parking, four bedrooms, and two bathrooms"></button><figcaption>Property feature</figcaption></figure>
+      </div>
+      <div class="vids">
+        <figure><video src="video/chesterfield.mp4" poster="img/poster-chesterfield.jpg" controls playsinline preload="metadata" aria-label="Reel touring The Chesterfield Homes"></video><figcaption><b>Reel.</b> A tour of The Chesterfield Homes</figcaption></figure>
+        <figure><video src="video/superhost.mp4" poster="img/poster-superhost.jpg" controls playsinline preload="metadata" aria-label="Airbnb Superhost thank-you video with guest reviews"></video><figcaption><b>Video.</b> Airbnb Superhost thank-you with guest reviews</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sales" class="ind gut">
+  <div class="in">
+    <div class="pill"><i>3</i><h2>Sales and Tech Support</h2></div>
+    <div class="lead">
+      <div style="display:grid;gap:16px">
+        <p style="font-size:1.1875rem;line-height:1.5;max-width:54ch">I've worked both sides of outbound sales: cold calling for new leads, and setting appointments by phone and DM for coaching businesses, gyms, and fitness programs.</p>
+        <p class="pick"><span><b>200+</b>calls per day, hitting targets</span></p>
+      </div>
+      <div class="roles">
+        <div><b>Appointment Setter, DM Setter, and Admin Support</b><span>Peak Digital Systems · Full time · Oct 2022 to Oct 2023</span><p>Set appointments for coaching businesses, gyms, and fitness programs through outbound calls and DMs, and kept CRM records current.</p></div>
+        <div><b>Cold Caller, Sales and Technical Support</b><span>Digital Outsourcing · Nov 2020 to Nov 2021</span><p>Generated outbound leads across solicitation, jewelry, and solar campaigns.</p></div>
+      </div>
+    </div>
+    <div class="sub" id="cold-calling">
+      <h3>Cold calling</h3>
+      <div class="split">
+        <ul>
+          <li>Make 200+ outbound calls per day while achieving targets.</li>
+          <li>Generate leads across solicitation, jewelry, and solar campaigns.</li>
+          <li>Work from dialers and keep call outcomes organized.</li>
+          <li>Handle sales and technical support conversations.</li>
+        </ul>
+        <div class="gallery two">
+          <figure class="shot"><button type="button"><img src="img/dialer.jpg" alt="Enzo Dialer calling screen"></button><figcaption>Enzo Dialer workspace</figcaption></figure>
+          <figure class="shot"><button type="button"><img src="img/dialer2.jpg" alt="Dialer admin dashboard"></button><figcaption>Dialer dashboard</figcaption></figure>
+        </div>
+      </div>
+    </div>
+
+    <div class="sub" id="appointment-setting">
+      <h3>Appointment and DM setting</h3>
+      <div class="split">
+        <ul>
+          <li>Reach out to leads for coaching businesses, gyms, and fitness programs.</li>
+          <li>Start and follow up on conversations by phone and DM.</li>
+          <li>Qualify leads and schedule consultations.</li>
+          <li>Keep CRM records current and provide admin support.</li>
+        </ul>
+        <div class="gallery two">
+          <figure class="shot"><button type="button"><img src="img/pipeline.jpg" alt="Sales pipeline board, blurred"></button><figcaption>Sales pipeline, details blurred</figcaption></figure>
+          <figure class="shot"><button type="button"><img src="img/inbox.jpg" alt="Lead conversations list, blurred"></button><figcaption>Lead conversations, details blurred</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ecommerce" class="ind gut">
+  <div class="in">
+    <div class="pill"><i>4</i><h2>E-commerce and Sourcing</h2></div>
+    <div class="lead">
+      <p>I find products at the right price. I've sourced qualified sellers, negotiated with them, and finalized the purchases.</p>
+      <div class="roles">
+        <div><b>Virtual Assistant, Product Sourcing</b><span>Tampa Diabetic Exchange · Full time · Jan 2022 to Sep 2022</span><p>Sourced qualified sellers, negotiated pricing, and finalized purchases.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="marketing" class="ind gut">
+  <div class="in">
+    <div class="pill"><i>5</i><h2>Social Media and Design</h2></div>
+    <div class="lead">
+      <div style="display:grid;gap:16px">
+        <p style="font-size:1.1875rem;line-height:1.5;max-width:54ch">I've designed since 2020 and managed brands on social media. I handle content, scheduling, engagement, analytics, and paid ads.</p>
+        <div class="picks">
+          <p class="pick"><span><b>7,264%</b>Facebook reach increase in 28 days</span></p>
+          <p class="pick"><span><b>9.9K</b>reach in a 28-day period, up 261%</span></p>
+          <p class="pick"><span><b>3</b>social media accounts handled</span></p>
+        </div>
+        <figure class="shot"><button type="button"><img src="img/blissful-features.jpg" alt="Blissful Living features of our home graphic"></button><figcaption>Property feature graphic for Blissful Living</figcaption></figure>
+      </div>
+      <div class="roles">
+        <div><b>Graphic Designer, Freelance</b><span>Jan 2020 to present</span><p>Marketing collateral, logo and branding design, and social media creative.</p></div>
+        <div><b>Social Media Manager</b><span>Virtuflex Assistance Services · Part time · Dec 2021 to Jul 2022</span><p>Content creation, scheduling, engagement, and analytics.</p></div>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Before and after</h3>
+      <div class="gallery two">
+        <figure class="shot full cut"><button type="button"><img src="img/sm-profile.png" alt="A client's Facebook page before and after the profile update, with the name covered"></button><figcaption><b>Profile.</b> I updated the bio and profile picture. At the client's request, we kept the same call-to-actions.</figcaption></figure>
+        <figure class="shot full cut"><button type="button"><img src="img/sm-insights.png" alt="Facebook dashboard before activation and Insights after, showing reach up 7,264%"></button><figcaption><b>Dashboard.</b> The client hadn't enabled the professional dashboard, so I activated it. Over the last 28 days, Facebook reach increased by 7,264%.</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Job post and content samples</h3>
+      <div class="gallery three">
+        <figure class="shot full cut"><button type="button"><img src="img/sm-post1.png" alt="We are hiring ESL teachers job post"></button><figcaption>Job post: ESL teachers</figcaption></figure>
+        <figure class="shot full cut"><button type="button"><img src="img/sm-post2.png" alt="Content post titled How Our Virtual Assistants Turn Cold Calls Into Leads"></button><figcaption>Content post: cold calling</figcaption></figure>
+        <figure class="shot full cut"><button type="button"><img src="img/sm-post3.png" alt="We are hiring cold callers job post"></button><figcaption>Job post: cold callers</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="sub">
+      <h3>Page growth</h3>
+      <div class="gallery three">
+        <figure class="shot full cut bob"><button type="button"><img src="img/sm-growth1.png" alt="Facebook Insights showing reach of 2.8K, up 59.7%"></button><figcaption><b>2.8K reach</b> · up 59.7% in 28 days</figcaption></figure>
+        <figure class="shot full cut bob"><button type="button"><img src="img/sm-growth2.png" alt="Facebook Insights showing reach of 6.7K, up 248%"></button><figcaption><b>6.7K reach</b> · up 248% in 28 days</figcaption></figure>
+        <figure class="shot full cut bob"><button type="button"><img src="img/sm-growth3.png" alt="Facebook Insights showing reach of 9.9K, up 261%"></button><figcaption><b>9.9K reach</b> · up 261% in 28 days</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="operations" class="ind gut">
+  <div class="in">
+    <div class="pill"><i>6</i><h2>Admin and Automation</h2></div>
+    <p style="font-size:1.1875rem;line-height:1.5;max-width:60ch">This runs through every job I've had. I build the pipelines, keep the data clean, and make sure follow-ups happen on time.</p>
+    <div class="split">
+      <div class="sub">
+        <h3>CRM and automation</h3>
+        <ul>
+          <li>GoHighLevel workflows, pipelines, funnels, and snapshots</li>
+          <li>Follow Up Boss automations and action plans</li>
+          <li>SMS drip campaigns in Smarter Contact</li>
+          <li>Tagging, data hygiene, and pipeline reporting</li>
+        </ul>
+      </div>
+      <div class="sub">
+        <h3>Admin and client support</h3>
+        <ul>
+          <li>Calendar and inbox management</li>
+          <li>Appointment setting and data entry</li>
+          <li>Document preparation and reporting</li>
+          <li>Client and customer communication</li>
+        </ul>
+      </div>
+    </div>
+    <div class="sub" id="automations">
+      <h3>Automation samples</h3>
+      <div class="gallery two auto">
+        <figure class="shot"><button type="button"><img src="img/auto-ghl.jpg" alt="GoHighLevel Property Follow-Up Sequence workflow with a contact tag trigger, SMS messages, wait steps, and reply and timeout branches"></button><figcaption><b>GoHighLevel workflow.</b> A contact tag starts an SMS about the property. After 24 hours, the sequence branches on a reply or timeout, then continues to follow-up messages.</figcaption></figure>
+        <figure class="shot"><button type="button"><img src="img/auto-fub.jpg" alt="Follow Up Boss list of 14 action plans for buyer, seller, web inquiry, and portal leads"></button><figcaption><b>Follow Up Boss action plans.</b> Fourteen plans covering buyer nurture, seller drips, stale leads, web inquiries, and portal leads.</figcaption></figure>
+      </div>
+    </div>
+    <div class="gallery">
+      <figure class="shot"><button type="button"><img src="img/sheet1.jpg" alt="Tracking spreadsheet, blurred"></button><figcaption>Tracking spreadsheet, details blurred</figcaption></figure>
+      <figure class="shot"><button type="button"><img src="img/sheet2.jpg" alt="Second tracking spreadsheet, blurred"></button><figcaption>Tracking spreadsheet, details blurred</figcaption></figure>
+      <figure class="shot"><button type="button"><img src="img/sheet3.jpg" alt="Color-coded property sheet, blurred"></button><figcaption>Property sheet, details blurred</figcaption></figure>
+      <figure class="shot"><button type="button"><img src="img/mail.jpg" alt="Email inbox, blurred"></button><figcaption>Email inbox, details blurred</figcaption></figure>
+    </div>
+    <a class="more" href="#tools">See all 31 tools I use</a>
+  </div>
+</section>
+</main>
+
+<section class="history gut" id="history">
+  <div class="in">
+    <div style="display:grid;gap:8px">
+      <p class="label">Full history</p>
+      <h2>Every role, most recent first</h2>
+    </div>
+    <div class="table" tabindex="0" role="region" aria-label="Work history table">
+      <table>
+        <thead><tr><th scope="col">Dates</th><th scope="col">Role</th><th scope="col">Company</th><th scope="col">Industry</th></tr></thead>
+        <tbody>
+          <tr><td>Dec 2024 to Sep 2026</td><td><b>Real Estate VA and Disposition Manager</b></td><td>Lot of Land, Inc.</td><td>Real estate</td></tr>
+          <tr><td>Jul 2025 to Jun 2026</td><td><b>Dispositions and Transactions Coordinator</b></td><td>MyDispoDesk</td><td>Real estate</td></tr>
+          <tr><td>Feb 2025 to Apr 2026</td><td><b>Dispositions Manager</b></td><td>RE Solutions Group</td><td>Real estate</td></tr>
+          <tr><td>Jan 2024 to Mar 2025</td><td><b>Real Estate VA, CRM Automation and Outbound</b></td><td>PhylliHome Stays</td><td>Real estate</td></tr>
+          <tr><td>Dec 2024 to Feb 2025</td><td><b>Social Media Manager, SMM and LinkedIn Outreach</b></td><td>Blissful Living by Mel</td><td>Hospitality, social media</td></tr>
+          <tr><td>Jul 2023 to Dec 2023</td><td><b>Virtual Booking Administrator</b></td><td>Mirror Villas</td><td>Hospitality</td></tr>
+          <tr><td>Oct 2022 to Oct 2023</td><td><b>Appointment Setter, DM Setter, and Admin Support</b></td><td>Peak Digital Systems</td><td>Sales, coaching, gyms, and fitness</td></tr>
+          <tr><td>Jan 2022 to Sep 2022</td><td><b>Virtual Assistant, Product Sourcing</b></td><td>Tampa Diabetic Exchange</td><td>E-commerce</td></tr>
+          <tr><td>Dec 2021 to Jul 2022</td><td><b>Social Media Manager</b></td><td>Virtuflex Assistance Services</td><td>Social media</td></tr>
+          <tr><td>Nov 2020 to Nov 2021</td><td><b>Cold Caller, Sales and Technical Support</b></td><td>Digital Outsourcing</td><td>Sales, tech support</td></tr>
+          <tr><td>Jan 2020 to present</td><td><b>Graphic Designer</b></td><td>Freelance</td><td>Design</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<section id="tools" class="toolpage gut" hidden>
+  <div class="in">
+    <div class="toolhead">
+      <p class="label">Tools</p>
+      <h1>The 31 tools I work in</h1>
+      <p>These are the systems I've used across real estate, hospitality, sales, marketing, and admin.</p>
+    </div>
+
+    <div class="toolgroup">
+      <h2>CRM and outreach</h2>
+      <ul class="toollist">
+        <li><b>GoHighLevel</b><span>Workflows, pipelines, funnels, and snapshots</span></li>
+        <li><b>Follow Up Boss</b><span>Automations, action plans, and follow-up sequences</span></li>
+        <li><b>Podio</b><span>Deal tracking</span></li>
+        <li><b>Smarter Contact</b><span>SMS drip campaigns</span></li>
+        <li><b>Enzo Dialer</b><span>Outbound calling</span></li>
+        <li><b>Smrtphone</b><span>Outbound calling and outreach</span></li>
+        <li><b>ClickSend</b><span>Text outreach</span></li>
+      </ul>
+    </div>
+
+    <div class="toolgroup">
+      <h2>Real estate and data</h2>
+      <ul class="toollist">
+        <li><b>MLS</b><span>Listing select properties with agents</span></li>
+        <li><b>Land Insights</b><span>Property research</span></li>
+        <li><b>LandVision</b><span>Land and parcel research</span></li>
+        <li><b>LandID</b><span>Land and parcel research</span></li>
+        <li><b>Direct Skip</b><span>Skip tracing neighbors, agents, and landowners</span></li>
+        <li><b>Beycome</b><span>Property listings</span></li>
+        <li><b>Land.com</b><span>Land listings</span></li>
+        <li><b>Flatfee</b><span>Flat-fee listings</span></li>
+        <li><b>Brokerless</b><span>Property listings</span></li>
+        <li><b>Craigslist</b><span>Property marketing</span></li>
+        <li><b>Facebook Marketplace</b><span>Property marketing</span></li>
+      </ul>
+    </div>
+
+    <div class="toolgroup">
+      <h2>Documents and teamwork</h2>
+      <ul class="toollist">
+        <li><b>DocuSign</b><span>E-signature routing</span></li>
+        <li><b>PandaDoc</b><span>Documents and e-signature</span></li>
+        <li><b>Jotform</b><span>Online forms</span></li>
+        <li><b>Google Workspace</b><span>Documents, spreadsheets, and email</span></li>
+        <li><b>Microsoft Office</b><span>Documents and spreadsheets</span></li>
+        <li><b>Slack</b><span>Team communication</span></li>
+        <li><b>WhatsApp</b><span>Team and client communication</span></li>
+        <li><b>Telegram</b><span>Team and client communication</span></li>
+        <li><b>Mews</b><span>Reservations, availability, and dynamic pricing</span></li>
+      </ul>
+    </div>
+
+    <div class="toolgroup">
+      <h2>Design and media</h2>
+      <ul class="toollist">
+        <li><b>Canva</b><span>Marketing collateral and social media creative</span></li>
+        <li><b>Photoshop</b><span>Graphic design and branding</span></li>
+        <li><b>CapCut</b><span>Video editing</span></li>
+        <li><b>Meta Business Suite</b><span>Social media management</span></li>
+      </ul>
+    </div>
+
+    <a class="more" href="#about">Back to portfolio</a>
+  </div>
+</section>
+
+<section id="contact" class="contact gut">
+  <div class="in">
+    <div>
+      <p class="help">Let me help you.</p>
+      <h2>Book your discovery call</h2>
+      <p class="note">Too many repetitive tasks and a to-do list that keeps growing? Tell me what's taking up your time.</p>
+      <a class="book" href="https://calendar.app.google/Qt5SRnUYeSaTwJqM6" target="_blank" rel="noopener">Pick a time on my calendar</a>
+    </div>
+    <dl>
+      <div><dt>Email</dt><dd><span>eriamiejanetabes@gmail.com</span><button class="copy" type="button" data-copy="eriamiejanetabes@gmail.com">Copy</button></dd></div>
+      <div><dt>WhatsApp</dt><dd><span>+63 970 229 6725</span><button class="copy" type="button" data-copy="+639702296725">Copy</button><a href="https://wa.me/639702296725" target="_blank" rel="noopener">Message me</a></dd></div>
+      <div><dt>Location</dt><dd>Surigao City, Philippines</dd></div>
+    </dl>
+  </div>
+</section>
+
+<dialog id="zoom" aria-label="Enlarged work sample">
+  <img id="zoom-img" alt="">
+  <form method="dialog"><span id="zoom-cap"></span><button type="submit">Close</button></form>
+</dialog>
+
+<script>
+(function () {
+  var d = document.getElementById('zoom'), im = document.getElementById('zoom-img'), cap = document.getElementById('zoom-cap');
+  document.querySelectorAll('.shot button').forEach(function (b) {
+    b.setAttribute('aria-label', 'Enlarge image');
+    b.addEventListener('click', function () {
+      var i = b.querySelector('img'), c = b.parentNode.querySelector('figcaption');
+      im.src = i.src; im.alt = i.alt; cap.textContent = c ? c.textContent : '';
+      if (d.showModal) d.showModal();
+    });
+  });
+  d.addEventListener('click', function (e) { if (e.target === d) d.close(); });
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        e.target.classList.add('inview');
+        io.unobserve(e.target);
+      });
+    }, { threshold: .08 });
+    document.querySelectorAll('.pill, .lead, .sub > h3, .gallery > .shot:not(.bob), .steps > li, .split, .guide li, .history .table, .toolgroup, .vids > figure, .case').forEach(function (el) {
+      var i = el.parentNode ? Array.prototype.indexOf.call(el.parentNode.children, el) : 0;
+      if (el.matches('.gallery > .shot, .steps > li, .guide li')) el.style.animationDelay = (i % 4) * 0.08 + 's';
+      io.observe(el);
+    });
+  }
+  var home = document.getElementById('home'), tools = document.getElementById('tools');
+  function route() {
+    var h = location.hash.slice(1), t = h === 'tools';
+    home.hidden = t; tools.hidden = !t;
+    if (t) { scrollTo(0, 0); return; }
+    var e = h && document.getElementById(h);
+    if (e) e.scrollIntoView();
+  }
+  addEventListener('hashchange', route);
+  route();
+  document.querySelectorAll('.copy').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var done = function (t) { b.textContent = t; setTimeout(function () { b.textContent = 'Copy'; }, 1500); };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(b.dataset.copy).then(function () { done('Copied'); }, function () { select(b); });
+      } else { select(b); }
+    });
+  });
+  function select(b) {
+    var s = getSelection(), r = document.createRange();
+    r.selectNodeContents(b.previousElementSibling); s.removeAllRanges(); s.addRange(r);
+  }
+})();
+</script>
+
+</body></html>
